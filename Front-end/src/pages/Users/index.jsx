@@ -1,7 +1,7 @@
 import React from 'react';
 
 const index = () => {
-  return <div>UsersH</div>;
+  return <div>users</div>;
 };
 
 export default index;
