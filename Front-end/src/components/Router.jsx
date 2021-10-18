@@ -6,8 +6,8 @@ const Login = loadable(() => import('@pages/Login'));
 const Main = loadable(() => import('@pages/Main'));
 const Register = loadable(() => import('@pages/Register'));
 const Minutes = loadable(() => import('@pages/Minutes'));
-const Users = loadable(()=> import('@pages/Users'))
-const Notices = loadable(()=> import('@pages/Notices'))
+const Users = loadable(() => import('@pages/Users'));
+const Notices = loadable(() => import('@pages/Notices'));
 
 const AppRouter = () => {
   return (
